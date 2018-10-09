@@ -1,0 +1,17 @@
+@import 'settings';
+//@import 'fonts';
+@import 'mixins';
+//@import 'customselect';
+//@import 'customcheckbox';
+//@import 'custominputnumber';
+
+.thank-for-order{
+  @import 'reset';
+  font-size: 0;
+  font-family: $ubuntu;
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+@import "../../components/thanksfororder/_thanksfororder.scss";
