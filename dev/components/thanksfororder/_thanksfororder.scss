@@ -1,0 +1,155 @@
+.thanks-for-order {
+  padding-top: 25px;
+  .blue-underline-text {
+    color: #3b5998;
+    border-bottom: 1px solid #3b5998;
+  }
+  .thanks-for-order-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .line-throw {
+    height: 1px;
+    background-color: #d7d7e4;
+    position: relative;
+    left: -16px;
+    width: 58%;
+    margin-bottom: 20px;
+  }
+  .thanks-info-block {
+    padding-left: 8px;
+    font-size: 14px;
+    margin-bottom: 42px;
+    position: relative;
+  }
+  .thanks-info-item {
+    font-size: 0;
+    margin-bottom: 14px;
+  }
+  .thanks-info-item-name {
+    font-size: 14px;
+    width: 155px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .thanks-info-item-value {
+    font-size: 14px;
+    width: 29.5%;
+    display: inline-block;
+    vertical-align: top;
+  }
+.new-sales-block{
+ position: absolute;
+  right: 0;
+  top: -10px;
+  text-align: center;
+  width: 254px;
+  padding: 13px 25px 8px
+25px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 1px solid #d7d7e4;
+}
+  .new-sales-title{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  .new-sales-input{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+    height: 18px;
+    border: 1px solid #d7d7e4;
+    padding-left: 7px;
+  }
+  .new-sales-input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    color: #d7d7e4;
+  }
+  .new-sales-input::-moz-placeholder { /* Firefox 19+ */
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    color: #d7d7e4;
+  }
+  .new-sales-input:-ms-input-placeholder { /* IE 10+ */
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    color: #d7d7e4;
+  }
+  .new-sales-input:-moz-placeholder { /* Firefox 18- */
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    color: #d7d7e4;
+  }
+  .new-sales-btn{
+    border-radius: 8px;
+    width: 123px;
+    height: 24px;
+    color: white;
+    background-color: #007742;
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+  .order-messege-block {
+    padding: 25px 0;
+    width: 53.5%;
+    margin-bottom: 23px;
+    font-size: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 0px rgba(51, 51, 51, 0.1);
+    .order-messege-icon-wrap {
+      box-sizing: border-box;
+      padding-left: 24px;
+      width: 16%;
+      display: inline-block;
+      vertical-align: top;
+      .order-messege-icon {
+        display: inline-block;
+        background-color: #007742;
+        width: 32px;
+        height: 32px;
+        color: white;
+        line-height: 32px;
+        border-radius: 50%;
+        font-size: 32px;
+        text-align: center;
+      }
+    }
+      .order-messege-text {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 13px;
+        font-weight: 300;
+        width: 65.7%;
+        line-height: 19px;
+        span{
+          font-style: italic;
+          font-weight: bold;
+        }
+      }
+  }
+  .ask-question-block{
+    margin-bottom: 25px;
+  }
+  .ask-question-title{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 4px;
+  }
+  .ask-question-text{
+    font-weight: 300;
+    font-size: 14px;
+
+  }
+  .continue-purchase{
+    font-size: 18px;
+  }
+}
